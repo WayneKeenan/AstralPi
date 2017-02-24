@@ -4,6 +4,7 @@ import pygame.camera
 
 # vcgencmd get_camera
 print("run: sudo modprobe bcm2835-v4l2")
+# or: echo "bcm2835-v4l2" | sudo tee -a /etc/modules-load.d/modules.conf
 
 pygame.init()
 pygame.camera.init()
